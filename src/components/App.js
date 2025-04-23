@@ -113,21 +113,21 @@ console.log(errorMessage);
   return   <div>
         {/* Do not remove the main div */}
         <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Name
+          <label htmlFor="Name">Name
           <input type="text" name="name" onChange={changeText}/>
-          <span className="nameError">{errorMessage.nameError}</span>
+          <span className="errorMessage">{errorMessage.nameError}</span>
           </label><br/>
-          <label htmlFor="address">address
+          <label htmlFor="Address">Address
           <input type="text" name="address" onChange={changeText}/>
-          <span className="addressError">{errorMessage.addressError}</span>
+          <span className="errorMessage">{errorMessage.addressError}</span>
           </label><br/>
-          <label htmlFor="email">Email
+          <label htmlFor="Email">Email
           <input type="email" name="email" onChange={changeText}/>
-          <span className="emailError">{errorMessage.emailError}</span>
+          <span className="errorMessage">{errorMessage.emailError}</span>
           </label><br/>
-          <label htmlFor="number">Number
+          <label htmlFor="Number">Number
           <input type="number" name="number" onChange={changeText}/>
-          <span className="numberError">{errorMessage.numberError}</span>
+          <span className="errorMessage">{errorMessage.numberError}</span>
           </label><br/>
           <button>Submit</button>
         </form>
