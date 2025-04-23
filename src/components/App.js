@@ -113,19 +113,19 @@ console.log(errorMessage);
   return   <div>
         {/* Do not remove the main div */}
         <form onSubmit={handleSubmit}>
-          <label htmlFor="Name">Name
+          <label htmlFor="name">Name
           <input type="text" name="name" onChange={changeText}/>
           <span className="errorMessage">{errorMessage.nameError}</span>
           </label><br/>
-          <label htmlFor="Address">Address
+          <label htmlFor="address">Address
           <input type="text" name="address" onChange={changeText}/>
           <span className="errorMessage">{errorMessage.addressError}</span>
           </label><br/>
-          <label htmlFor="Email">Email
+          <label htmlFor="email">Email
           <input type="email" name="email" onChange={changeText}/>
           <span className="errorMessage">{errorMessage.emailError}</span>
           </label><br/>
-          <label htmlFor="Number">Number
+          <label htmlFor="number">Mobile
           <input type="number" name="number" onChange={changeText}/>
           <span className="errorMessage">{errorMessage.numberError}</span>
           </label><br/>
